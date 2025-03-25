@@ -11,16 +11,21 @@
 <body>
     <header>
         <nav>
-            <ul>
+           
+            <ul class="nav-links">
                 <li><a href="#home">Home</a></li>
                 <li><a href="#about">About</a></li>
                 <li><a href="#projects">Projects</a></li>
                 <li><a href="#experience">Experience</a></li>
-                <li><a href="#contact" class="">Get in contact</a></li>
+                <li><a href="#contact">Get in Contact</a></li>
             </ul>
+            <!-- Hamburger Menu Icon -->
+            <div class="hamburger" onclick="toggleMenu()">
+                ☰
+            </div>
         </nav>
     </header>
-
+    
     <section id="home" class="hero">
         <div class="overlay"></div> <!-- Semi-transparent overlay -->
         
@@ -78,52 +83,88 @@
                 <img src="TimTom Cover.jpeg" alt="TimTom Health Care Website">
                 <h3>TimTom HealthCare</h3>
                 <p>A healthcare-focused website that provides essential services, resources, and a seamless user experience for medical professionals and patients.</p>
-                <a href="https://timiza1122.github.io/timtom-healthcare/" target="_blank" class="btn">See Project</a>
+                <a href="https://timtomhealthcare.com/" target="_blank" class="btn">See Project</a>
             </div>
         </div>
     </section>
     
 
     <section id="experience">
-        <h2>Experience</h2>
+        <h2>Work Experience</h2>
         <div class="experience-container">
     
-            <!-- Software Developer & QA Intern -->
+            <!-- Web Developer (Freelance) -->
             <div class="experience-card">
-                <h3>Software Developer & QA Intern</h3>
-                <p><strong>Provtech - Upper Marlboro, Maryland</strong> | August 2024 - February 2025</p>
+                <h3>Web Developer (Freelance)</h3>
+                <p><strong>TimTom HealthCare, Remote</strong> | October 2024 – December 2024</p>
                 <ul>
-                    <li>Developed <strong>custom software solutions</strong> tailored to clients' specific business needs.</li>
-                    <li>Wrote and executed <strong>manual & automated test cases</strong> using Jest and Cypress.</li>
-                    <li>Identified, documented, and troubleshot <strong>bugs and performance issues</strong>, working closely with developers to resolve them.</li>
-                    <li><strong>Software documentation</strong>, writing API guides, test reports, and workflow diagrams </li>
-                    <li>Collaborated in an <strong>Agile/Scrum team</strong>, participating in stand-ups, sprint planning, and retrospectives.</li>
+                    <li>Built a small website for TimTom HealthCare independently using <strong>HTML, CSS, JavaScript, and Bootstrap</strong> for a clean and user-friendly design.</li>
+                    <li>Implemented responsive design with Bootstrap, ensuring seamless performance across all devices.</li>
+                    <li>Developed functional features such as contact forms and service detail pages to help users easily access information.</li>
+                    <li>Built back-end functionality using <strong>Node.js</strong> for form submissions and user interactions.</li>
+                    <li>Integrated a database for storing and managing user-submitted data.</li>
+                    <li>Conducted thorough testing to ensure smooth website operation across both front-end and back-end components.</li>
+                    <p><strong>Skills Used:</strong> HTML, CSS, JavaScript, Bootstrap, Node.js, Database Management, Web Development</p>
                 </ul>
             </div>
     
-            <!-- Web Developer -->
+            <!-- Junior Software Engineer Intern -->
             <div class="experience-card">
-                <h3>Web Developer</h3>
-                <p><strong>TimTom Healthcare - Hamilton, Ontario</strong> | June 2019 - July 2024</p>
+                <h3>Junior Software Engineer Intern</h3>
+                <p><strong>ProvTech Communications, Upper Marlboro, MD</strong> | April 2023 – October 2023</p>
                 <ul>
-                    <li>Designed and developed the <strong>TimTom Healthcare website</strong> from scratch, handling both <strong>UI/UX design and full-stack development</strong>.</li>
-                    <li>Built a responsive and modern frontend using <strong>HTML, CSS, JavaScript, and Bootstrap</strong>, ensuring seamless performance on all devices.</li>
-                    <li>Developed the <strong>backend booking system</strong> using <strong>Node.js, Express.js, and MySQL</strong> to manage user appointments.</li>
-                    <li>Used <strong>Git and GitHub</strong> for version control, deploying the site via <strong>Netlify and Vercel</strong>.</li>
-                    <li>Optimized website performance, reducing <strong>load times</strong> and improving <strong>SEO rankings</strong> for better visibility.</li>
+                    <li>Assisted senior engineers in developing custom software solutions tailored to client needs.</li>
+                    <li>Wrote, tested, and debugged code to ensure seamless functionality and performance.</li>
+                    <li>Supported project goals by identifying challenges and proposing effective solutions.</li>
+                    <li>Created detailed reports and documentation to communicate progress and findings.</li>
+                    <li>Facilitated training sessions to introduce software tools and development methodologies to team members.</li>
+                    <li>Provided on-demand support and answered questions during training programs.</li>
+                    <p><strong>Skills Used:</strong> Coding, Problem-Solving, Teamwork, Communication</p>
+                </ul>
+            </div>
+    
+            <!-- Junior Web Developer Intern - Bayshore HealthCare -->
+            <div class="experience-card">
+                <h3>Junior Web Developer Intern</h3>
+                <p><strong>Bayshore HealthCare, Mississauga, ON</strong> | March 2021 – November 2022</p>
+                <ul>
+                    <li>Developed and maintained web pages using <strong>HTML, CSS, and JavaScript</strong>, ensuring a modern and responsive user interface.</li>
+                    <li>Integrated <strong>React.js</strong> components for interactivity and improved user experience.</li>
+                    <li>Connected the front-end to the back-end using <strong>Node.js</strong> for secure data management.</li>
+                    <li>Optimized website performance for fast loading times on mobile, tablet, and desktop devices.</li>
+                    <li>Regularly updated content with new healthcare services and company announcements.</li>
+                    <li>Added user-friendly features like contact forms and appointment booking tools.</li>
+                    <p><strong>Skills Used:</strong> HTML, CSS, JavaScript, React.js, Node.js, Web Design, Communication, Problem-Solving</p>
+                </ul>
+            </div>
+    
+            <!-- Junior Web Developer Intern - Delore Quality Healthcare Services -->
+            <div class="experience-card">
+                <h3>Junior Web Developer Intern</h3>
+                <p><strong>Delore Quality Healthcare Services, Toronto, ON</strong> | January 2019 – December 2020</p>
+                <ul>
+                    <li>Collaborated with senior developers to design and build an accessible website using <strong>HTML, CSS, and JavaScript</strong>.</li>
+                    <li>Developed dynamic and interactive web pages with <strong>React.js</strong> for enhanced user experience.</li>
+                    <li>Integrated a secure back-end using <strong>Node.js</strong> for data management.</li>
+                    <li>Enhanced website speed and responsiveness for smooth performance across all devices.</li>
+                    <li>Maintained and updated the website with new features and accurate information.</li>
+                    <li>Added key features like contact forms and appointment request tools to improve client interactions.</li>
+                    <li>Performed regular testing to identify bugs and ensure functionality across pages.</li>
+                    <p><strong>Skills Used:</strong> HTML, CSS, JavaScript, React.js, Node.js, Web Design, Problem-Solving, Teamwork, Communication</p>
                 </ul>
             </div>
     
         </div>
     </section>
     
+    
     <section id="resume">
         <h2>My Resume</h2>
-        <p>View my resume directly or download it using the button below.</p>
-    
-        <!-- Embedded Resume -->
-        <iframe src="https://drive.google.com/file/d/1AQ1Z9TtIkd6s8joHipMAUaJ3NRABB9PC/preview" width="100%" height="600px" allow="autoplay"></iframe>
-    
+        <p>View my updated resume directly or download it using the button below.</p>
+        
+        <!-- Embedded Resume with Updated Link -->
+        <iframe src="https://drive.google.com/file/d/1ga2Qp450kH1HCzwV-ysbda8Xvu1JVdb7/preview" width="100%" height="600px" allow="autoplay"></iframe>
+        
         <!-- Download Button -->
         <div class="resume-download">
             <a href="https://drive.google.com/uc?export=download&id=1HjJSHLnEHtY5IfZOo9GuieKP3jr1tDD9" 
@@ -147,6 +188,16 @@
     
     
     
+
+    <script>
+        function toggleMenu() {
+            const navLinks = document.querySelector('.nav-links');
+            navLinks.classList.toggle('active');
+        }
+        </script>
+
+
+
 
     <footer>
         <p>© 2025 Timileyin Adeoye</p>
